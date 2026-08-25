@@ -1,0 +1,57 @@
+.flexbox {
+    height: 250px;
+    border: 3px solid red;
+    display: flex;
+    margin-bottom: 16px;
+    
+}
+
+.flexbox div{
+    border: 2px solid orange;
+    width: 200px;
+    margin: 15px;
+}
+
+.flex-container1 {
+    flex-flow: row wrap;
+}
+
+.flex-container2 {
+    justify-content: space-evenly;
+}
+
+.flex-container2 div {
+    width: 30px;
+    margin: 0;
+}
+
+.flex-container3 {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-container3 div {
+    width: 30px;
+    margin: 0;
+}
+
+.flex-container4 {
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.flex-container4 div {
+    width: 30px;
+    margin: 0;
+}
+
+.flex-container5 {
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-start;
+    flex-wrap:wrap
+}
+
+.flex-container5 div {
+    width: 30px;
+}
